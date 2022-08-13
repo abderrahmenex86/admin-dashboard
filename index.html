@@ -2,220 +2,221 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title></title>
+		<title>Admin | Dashboard</title>
+		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="container">
-			<!-- sidebar -->
 			<div class="sidebar">
-				<div class="top">
+				<div id="side-top">
+					<img src="images/dashboard.png" />
+					<span>Dashboard</span>
+				</div>
+				<div id="side-mid">
 					<div>
-						<img src="images/logo.png" alt="logo" id="logo" />
-						<span>Dashboard</span>
+						<img src="images/home.png" />
+						<span>Home</span>
+					</div>
+					<div>
+						<img src="images/profile.png" />
+						<span>Profile</span>
+					</div>
+					<div>
+						<img src="images/messages.png" />
+						<span>Messages</span>
+					</div>
+					<div>
+						<img src="images/history.png" />
+						<span>History</span>
+					</div>
+					<div>
+						<img src="images/tasks.png" />
+						<span>Tasks</span>
+					</div>
+					<div>
+						<img src="images/communities.png" />
+						<span>Communities</span>
 					</div>
 				</div>
-				<div class="mid">
+				<div id="side-bot">
 					<div>
-						<img src="images/home.png" alt="home" />
-						<span>home</span>
+						<img src="images/settings.png" />
+						<span>Settings</span>
 					</div>
 					<div>
-						<img src="images/profile.png" alt="profile" />
-						<span>profile</span>
+						<img src="images/support.png" />
+						<span>Support</span>
 					</div>
 					<div>
-						<img src="images/message.png" alt="messages" />
-						<span>messages</span>
-					</div>
-					<div>
-						<img src="images/history.png" alt="history" />
-						<span>history</span>
-					</div>
-					<div>
-						<img src="images/tasks.png" alt="tasks" />
-						<span>tasks</span>
-					</div>
-					<div>
-						<img src="images/communities.png" alt="communities" />
-						<span>communities</span>
-					</div>
-				</div>
-				<div class="bottom">
-					<div>
-						<img src="images/settings.png" alt="settings" />
-						<span>settings</span>
-					</div>
-					<div>
-						<img src="images/support.png" alt="support" />
-						<span>support</span>
-					</div>
-					<div>
-						<img src="images/privacy.png" alt="privacy" />
-						<span>privacy</span>
+						<img src="images/privacy.png" />
+						<span>Privacy</span>
 					</div>
 				</div>
 			</div>
-			<!-- sidebar -->
-
-			<!-- ########################################## -->
-			<!-- navbar -->
-			<div class="navbar">
-				<div class="top-nav">
-					<div class="search">
-						<img src="images/search.png" alt="search icon" />
-						<input type="search" name="search" id="search" />
+			<!-- ########################################-->
+			<div class="double-navbar">
+				<div id="nav-top">
+					<div id="nav-top-left">
+						<img src="images/search.png" />
+						<input type="search" name="search" />
 					</div>
-					<div class="profile">
-						<img src="images/notifications.png" alt="notifications" />
-						<imi
-							id="profile-picture"
-							src="images/profile-image.png"
-							alt="profile-image"
-						/>
-						<span>Username</span>
+					<div id="nav-top-right">
+						<img src="images/notifications.png" />
+						<img id="profile" src="images/profile-1.png" />
+						<span><a href="#" target="_blank">Idiot Idiom</a></span>
 					</div>
 				</div>
-				<div class="bottom-nav">
-					<div class="profile">
-						<img src="images/profile-image.png" alt="profile-image" />
-						<p>hey there</p>
-						<p id="username">Username</p>
+				<div id="nav-bot">
+					<div id="nav-bot-left">
+						<img id="big-profile" src="images/profile-1.png" />
+						<span id="small-text">Hello there</span>
+						<span id="big-text">
+							<a href="#" target="_blank">Idiot Idiom</a>
+							@dense019
+						</span>
 					</div>
-
-					<div class="actions">
-						<button type="submit">upload</button>
-						<button type="submit">share</button>
-						<button type="submit">new</button>
+					<div id="nav-bot-right">
+						<button type="submit">New</button>
+						<button type="submit">Upload</button>
+						<button type="submit">Share</button>
 					</div>
 				</div>
 			</div>
-			<!-- navbar -->
-
-			<!-- ########################################## -->
-			<!-- main -->
+			<!-- ########################################-->
 			<div class="main">
-				<div class="projects">
-					<p>Your projects</p>
-					<div class="card">
-						<p id="card-title">Lorem</p>
-						<p id="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-					<div class="card">
-						<p id="card-title">Lorem</p>
-						<p id="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-					<div class="card">
-						<p class="card-title">Lorem</p>
-						<p class="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-					<div class="card">
-						<p class="card-title">Lorem</p>
-						<p class="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-					<div class="card">
-						<p class="card-title">Lorem</p>
-						<p class="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-					<div class="card">
-						<p class="card-title">Lorem</p>
-						<p class="descr">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-							expedita!
-						</p>
-						<img src="images/star.png" alt="star" />
-						<img src="images/watch.png" alt="watch" />
-						<img src="images/branch.png" alt="branch" />
-					</div>
-				</div>
-				<div class="announcements">
-					<p>announcements</p>
-					<div class="announcements-card">
-						<div>
-							<p class="card-title">Lorem</p>
-							<p class="descr">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-								expedita!
-							</p>
+				<div id="main-left">
+					<span class="title">Projects</span>
+					<div class="cards">
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
 						</div>
-						<div>
-							<p class="card-title">Lorem</p>
-							<p class="descr">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-								expedita!
-							</p>
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
 						</div>
-						<div>
-							<p class="card-title">Lorem</p>
-							<p class="descr">
-								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-								expedita!
-							</p>
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
+						</div>
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
+						</div>
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
+						</div>
+						<div class="card">
+							<span>Lorem, ipsum.</span>
+							<span class="title">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+								unde, suscipit iste nemo nobis dignissimos!
+							</span>
+							<img src="images/star.png" />
+							<img src="images/watch.png" />
+							<img src="images/branch.png" />
 						</div>
 					</div>
 				</div>
-				<div class="trending">
-					<div class="trending-card">
-						<div class="trending-item">
-							<img src="images/profile1.png" alt="profile pticture 1" />
-							<p>@username</p>
-							<p>bio</p>
+				<div id="main-right">
+					<div id="main-right-top">
+						<span class="title">Announcements</span>
+						<div class="announcements">
+							<div class="announcement">
+								<span>Lorem, ipsum.</span>
+								<span class="title">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+									unde, suscipit iste nemo nobis dignissimos!
+								</span>
+							</div>
+							<div class="announcement">
+								<span>Lorem, ipsum.</span>
+								<span class="title">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+									unde, suscipit iste nemo nobis dignissimos!
+								</span>
+							</div>
+							<div class="announcement">
+								<span>Lorem, ipsum.</span>
+								<span class="title">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+									unde, suscipit iste nemo nobis dignissimos!
+								</span>
+							</div>
+							<div class="announcement">
+								<span>Lorem, ipsum.</span>
+								<span class="title">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+									unde, suscipit iste nemo nobis dignissimos!
+								</span>
+							</div>
 						</div>
-						<div class="trending-item">
-							<img src="images/profile1.png" alt="profile pticture 1" />
-							<p>@username</p>
-							<p>bio</p>
-						</div>
-						<div class="trending-item">
-							<img src="images/profile1.png" alt="profile pticture 1" />
-							<p>@username</p>
-							<p>bio</p>
-						</div>
-						<div class="trending-item">
-							<img src="images/profile1.png" alt="profile pticture 1" />
-							<p>@username</p>
-							<p>bio</p>
+					</div>
+					<div id="main-right-bot">
+						<span class="title">Trending</span>
+						<div id="trends">
+							<div class="trend">
+								<img src="images/profile-2.png" />
+								<span>@Stupid1</span>
+								<span>Stupid bio 1</span>
+							</div>
+							<div class="trend">
+								<img src="images/profile-2.png" />
+								<span>@Stupid2</span>
+								<span>Stupid bio 2</span>
+							</div>
+							<div class="trend">
+								<img src="images/profile-2.png" />
+								<span>@Stupid3</span>
+								<span>Stupid bio 3</span>
+							</div>
+							<div class="trend">
+								<img src="images/profile-2.png" />
+								<span>@Stupid4</span>
+								<span>Stupid bio 4</span>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- main -->
 		</div>
 	</body>
 </html>
